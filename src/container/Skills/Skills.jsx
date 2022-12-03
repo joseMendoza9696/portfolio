@@ -64,9 +64,10 @@ const Skills = () => {
 											key={work.name}
 										>
 											<h4 className="bold-text">{work.name}</h4>
-											<p className="p-text">{work.company}</p>
+											<h5 className="p-text">{work.company}</h5>
+											<p>{work.desc}</p>
 										</motion.div>
-										<ReactTooltip
+										{/* <ReactTooltip
 											id={work.name}
 											effect="solid"
 											arrowColor="#fff"
@@ -74,7 +75,7 @@ const Skills = () => {
 											key={index}
 										>
 											{work.desc}
-										</ReactTooltip>
+										</ReactTooltip> */}
 									</>
 								))}
 							</motion.div>
