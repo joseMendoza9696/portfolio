@@ -43,7 +43,7 @@ const Work = () => {
 			</h2>
 
 			<div className="app__work-filter">
-				{['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All'].map(
+				{['Node.js', 'React JS', 'PostgreSQL', 'MongoDB','REST', 'GraphQL', 'Django', 'All'].map(
 					(item, index) => (
 						<div
 							key={index}
@@ -69,7 +69,7 @@ const Work = () => {
 							<img src={urlFor(work.imgUrl)} alt={work.name} />
 
 							<motion.div
-								whileHover={{ opacity: [0, 1] }}
+								whileHover={{ opacity: [0.5, 1] }}
 								transition={{
 									duration: 0.25,
 									ease: 'easeInOut',

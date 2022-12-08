@@ -58,8 +58,8 @@ const Footer = () => {
 					</a>
 				</div>
 				<div className="app__footer-card">
-					<img src={images.mobile} alt="link" />
-					<a href="tel:+591 72821908" className="p-text">
+					{/* <img src={images.mobile} alt="link" /> */}
+					<a href="https://www.linkedin.com/in/josemendozacarrasco/" target="_blank" className="p-text" rel="noreferrer">
 						My LinkedIn
 					</a>
 				</div>
