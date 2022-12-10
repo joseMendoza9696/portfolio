@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-CORRE EN NODEJS 14
+CORRE EN NODEJS 14.20.1
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

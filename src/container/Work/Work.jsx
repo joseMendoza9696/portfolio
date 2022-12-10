@@ -43,7 +43,7 @@ const Work = () => {
 			</h2>
 
 			<div className="app__work-filter">
-				{['Node.js', 'React JS', 'PostgreSQL', 'MongoDB','REST', 'GraphQL', 'Django', 'All'].map(
+				{['Node.js', 'React JS', 'PostgreSQL', 'MongoDB','REST', 'GraphQL', 'All'].map(
 					(item, index) => (
 						<div
 							key={index}
