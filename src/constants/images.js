@@ -40,6 +40,7 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import linkedin from '../assets/linkedin.png';
 
 const images = {
 	email,
@@ -78,7 +79,8 @@ const images = {
 	nestjs,
 	postgresql,
 	mongodb,
-	ethereum
+	ethereum,
+	linkedin
 };
 
 export default images;

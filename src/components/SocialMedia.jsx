@@ -2,18 +2,12 @@ import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
 
 const SocialMedia = () => (
-	<div className="app__social">
+	<div className="">
 		<div onClick={
-			console.log('clicked')
+			console.log('clicked linkedin')
 		} >
-			<BsLinkedin />
+			{/* <BsLinkedin /> */}
 		</div>
-		{/* <div>
-			<FaFacebookF />
-		</div>
-		<div>
-			<BsInstagram />
-		</div> */}
 	</div>
 );
 
