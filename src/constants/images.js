@@ -41,6 +41,7 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import linkedin from '../assets/linkedin.png';
+import calendly from '../assets/calendly.png';
 
 const images = {
 	email,
@@ -80,7 +81,8 @@ const images = {
 	postgresql,
 	mongodb,
 	ethereum,
-	linkedin
+	linkedin,
+	calendly
 };
 
 export default images;

@@ -18,16 +18,22 @@ const Footer = () => {
 						jmendozacarrasco@gmail.com
 					</a>
 				</div>
-				<div className="app__footer-card">
+				{/* <div className="app__footer-card">
 					<img src={images.mobile} alt="phone" />
 					<a href="tel:+591 72821908" className="p-text">
 						+591 72821908
+					</a>
+				</div> */}
+				<div className="app__footer-card">
+					<img src={images.calendly} alt="link" />
+					<a href="https://calendly.com/jmendozacarrasco/15min" target="_blank" className="p-text" rel="noreferrer">
+						My Calendly
 					</a>
 				</div>
 				<div className="app__footer-card">
 					<img src={images.linkedin} alt="link" />
 					<a href="https://www.linkedin.com/in/josemendozacarrasco/" target="_blank" className="p-text" rel="noreferrer">
-						My LinkedIn
+						LinkedIn
 					</a>
 				</div>
 			</div>
